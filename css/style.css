@@ -1059,7 +1059,7 @@ body.offcanvas {
       background: #fff;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
+      -ms-border-radius: 50%
       border-radius: 50%; }
   .colorlib-counters .counter-wrap {
     border: 1px solid red !important; }
@@ -1092,9 +1092,9 @@ body.offcanvas {
     zoom: 1;
     *display: inline; }
     .colorlib-social li a {
-      font-size: 22px;
+      /*font-size: 22px;*/
       color: #000;
-      padding: 10px;
+      /*padding: 10px;*/
       display: -moz-inline-stack;
       display: inline-block;
       zoom: 1;
@@ -1103,6 +1103,9 @@ body.offcanvas {
       -moz-border-radius: 7px;
       -ms-border-radius: 7px;
       border-radius: 7px; }
+      .colorlib-social li a i {
+        color: rgba(0,0,0,0.5);
+      }
       @media screen and (max-width: 768px) {
         .colorlib-social li a {
           padding: 10px 8px; } }
